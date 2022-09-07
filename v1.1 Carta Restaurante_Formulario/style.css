@@ -1,47 +1,6 @@
-.grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto ;
-	padding: 10px;
-  }
-
-.grid-container2 {
-	display: grid;
-	grid-template-columns: auto ;
-	padding: 10px;
-  }
-
-.grid-container-form {
-
-	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto auto auto auto  ;
-	padding: 10px;
-	text-align: left;
-	font-size: 22px;
-}
-
-.grid-item {
-	padding: 20px;
-	font-size: 20px;
-	text-align: center;
-  }
-
-.grid-item-form {
-	padding: 20px;
-	font-size: 20px;
-	
-  }
-
-  
-
-  .grid-item-footer {
-	padding: 20px;
-	font-size: 15px;
-	text-align: center;
-  }
 body {
 	background-image: url("images/fondo2.png");
 	color: rgb(30, 30, 30);
-	font-size: 25px;
 	font-family: Helvetica;
 	background-size: cover;
 }
@@ -50,15 +9,34 @@ a {
 	color: yellow;
 
 }
-.a1 {
-	color: yellow;
-	font-size: 25;
-	
-}
 
 a:hover {
 	text-decoration: none;
 	color: purple;
+}
+
+ul {
+    list-style: none;
+}
+
+h3 {
+	font-size: 35px;
+}
+
+footer {
+	background: rgb(243, 117, 49);
+ 	color: white;
+    opacity: 0.8;
+	text-justify: auto;
+    padding-top: -10px;
+}
+
+footer p{
+	font-size: 36px;
+}
+
+footer a:hover {
+	color: white;
 }
 
 #banner {
@@ -85,23 +63,52 @@ a:hover {
 	font-weight: lighter;
 }
 
-#footer {
-	background: rgb(243, 117, 49);
- 	color: lightgrey;
-    opacity: 0.8;
-	text-justify: auto;
-	padding-top: 3%;
+.a1 {
+	color: yellow;
+	font-size: 25;
+	
+} 
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	padding: 10px;
 }
 
-#footer a {
-	color: lightgrey;
+.grid-container2 {
+	display: grid;
+	grid-template-columns: auto ;
+	padding: 10px;
+}
+
+.grid-item {
+	padding: 20px;
 	font-size: 25px;
+	text-align: center;
 }
 
-#footer a:hover {
-	color: white;
-}
-ul {
-    list-style: none;
+.grid-item-footer {
+	font-size: 22px;
+	text-align: center;
 }
 
+.grid-item-footer {
+	font-size: 22px;
+	text-align: center;
+}
+
+.grid-container-form {
+
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto  ;
+	padding: 10px;
+	text-align: left;
+	font-size: 22px;
+}
+
+
+
+.grid-item-form {
+	padding: 20px;
+	font-size: 20px;
+	
+  }
