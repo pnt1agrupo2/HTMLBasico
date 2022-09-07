@@ -122,7 +122,7 @@
 		<div class= "grid-container2">
 			<div class="grid-item">
 				
-				<p> <h3> ¿Tenes alguna duda? ¡Contactanos!</h3></p>
+				<p> <h3> <u>¿Tenes alguna duda? ¡Contactanos!</u></h3></p>
 				<br>
 				<form>
 					<div class="grid-container-form" >
