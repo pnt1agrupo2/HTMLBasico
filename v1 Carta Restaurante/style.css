@@ -1,0 +1,97 @@
+body {
+	background-image: url("images/fondo2.png");
+	color: rgb(30, 30, 30);
+	font-family: Helvetica;
+	background-size: cover;
+}
+
+a {
+	color: yellow;
+
+}
+
+a:hover {
+	text-decoration: none;
+	color: purple;
+}
+
+ul {
+    list-style: none;
+}
+
+h3 {
+	font-size: 35px;
+}
+
+footer {
+	background: rgb(243, 117, 49);
+ 	color: white;
+    opacity: 0.8;
+	text-justify: auto;
+    padding-top: -10px;
+}
+
+footer p{
+	font-size: 36px;
+}
+
+footer a:hover {
+	color: white;
+}
+
+#banner {
+	text-align: center;
+	background-image: url("images/cervecería.jpg");
+	background-size: cover;
+	padding: 150px;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+}
+#menu {
+	padding-top: 3%;
+}
+
+#banner h1 {
+	color: white;
+	font-size: 50px;
+}
+
+#banner p {
+	color: white;
+	opacity: 0.8;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.a1 {
+	color: yellow;
+	font-size: 25;
+	
+} 
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	padding: 10px;
+}
+
+.grid-container2 {
+	display: grid;
+	grid-template-columns: auto ;
+	padding: 10px;
+}
+
+.grid-item {
+	padding: 20px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.grid-item-footer {
+	font-size: 22px;
+	text-align: center;
+}
+
+.grid-item-footer {
+	font-size: 22px;
+	text-align: center;
+}
