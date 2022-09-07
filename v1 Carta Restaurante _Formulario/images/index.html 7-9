@@ -1,0 +1,224 @@
+<html>
+
+<head>
+	<!--<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">-->
+	<!--Se puede obviar el meta-->
+	<title>CERVECERÍA LOS PIMPOLLOS</title>
+	<link rel='stylesheet' href='style.css'>
+	<link rel="icon" href="images/pimpollos2.ico">
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<div id="banner">
+		<h1>CERVECERÍA LOS PIMPOLLOS</h1>
+		<p>La mejor cervecería de la ciudad, ¿te animás a probarla?</p>
+		<p>
+			<a href="#menu">Conocé nuestro menú</a>
+		</p>
+	</div>
+	<div id="menu" align="center">
+		<div id="desayunos">
+			<div class="grid-container">
+				<div class="grid-item"></div>
+				<div class="grid-item">
+					<h3>DESAYUNOS</h3>
+				</div>
+				<div class="grid-item"></div>
+				<div class="grid-item">
+					<ul>
+						<li>Café con leche $200</li>
+						<li>Té $150</li>
+						<li>Medialunas (grasa o manteca) $200</li>
+					</ul>
+				</div>
+				<div class="grid-item"><img src="images/desayuno.png" alt="desayuno" width="200"></div>
+				<div class="grid-item">
+					<ul>
+						<li>Tostado $450</li>
+						<li>Tostadas con mermelada y queso $350</li>
+						<li>Yogurt con cereales $500</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="comidas">
+			<div class="grid-container">
+				<div class="grid-item"></div>
+				<div class="grid-item">
+					<h3>NUESTRAS HAMBURGUESAS</h3>
+				</div>
+				<div class="grid-item"></div>
+				<div class="grid-item">
+					<ul>
+						<li>Simple $800</li>
+						<li>Completa con JyQ $900</li>
+						<li>Completa con Huevo $1000</li>
+					</ul>
+				</div>
+				<div class="grid-item"><img src="images/hamburguesa.png" alt="hamburguesa" width="250"></div>
+				<div class="grid-item">
+					<ul>
+						<li>Completa $950</li>
+						<li>Doble $1050</li>
+						<li>La Gran Pimpollo $1200</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="postres">
+			<div class="grid-container">
+				<div class="grid-item"></div>
+				<div class="grid-item">
+					<h3>TENTATE CON ALGO DULCE</h3>
+				</div>
+				<div class="grid-item"></div>
+				<div class="grid-item">
+					<ul>
+						<li>Flan con Ddl y crema $600</li>
+						<li>Chocotorta $700</li>
+						<li>Mousse de chocolate $600</li>
+					</ul>
+				</div>
+				<div class="grid-item"><img src="images/postres.png" alt="postres" width="200"></div>
+				<div class="grid-item">
+					<ul>
+						<li>Chessecake $800</li>
+						<li>Postre Oreo $900</li>
+						<li>Ensalada de Frutas $600</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="cervezas">
+			<div class="grid-container">
+				<div class="grid-item"></div>
+				<div class="grid-item">
+					<h3>NUESTRAS CERVEZAS</h3>
+				</div>
+				<div class="grid-item"></div>
+				<div class="grid-item">
+					<ul>
+						<li>RUBIA $600</li>
+						<li>ROJA $600</li>
+						<li>NEGRA ORT-BAR $600</li>
+					</ul>
+				</div>
+				<div class="grid-item"><img src="images/beer.png" alt="Beer" width="200"></div>
+				<div class="grid-item">
+					<ul>
+						<li>IPA $600</li>
+						<li>APA $600</li>
+						<li>IPA ANDINA $600</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class= "grid-container2">
+			<div class="grid-item">
+				
+				<p> <h3> ¿Tenes alguna duda? ¡Contactanos!</h3></p>
+				<br>
+				<form>
+					<div class="grid-container-form" >
+						<div></div><div></div><div></div><div></div>
+
+						<label for="username"><b>Nombre: </b></label> 
+						<input id="username" type="text" required= "">
+
+					<div></div><div></div><div></div><div></div>
+
+					
+					<div></div><div></div><div></div><div></div>
+
+						<label type="number"><b>Numero de telefono: </b></label>
+						<input type="number"  required= "" > 
+
+					<div></div><div></div><div></div><div></div>
+
+					<div></div><div></div><div></div><div></div>
+
+						<label for="email"><b>Email: </b></label>
+						<input type="email"  required= "">
+
+					<div></div><div></div><div></div><div></div>
+					
+					
+
+					<div></div><div></div><div></div><div></div>
+						<label for="text"><b>Tu consulta: </b></label>
+						<textarea name="comentario" rows="10" cols="100">Escribe aquí tu comentario: </textarea>
+					<div></div><div></div><div></div><div></div>
+					
+					<div></div><div></div><div></div><div></div><div></div>
+						<input type="submit">
+					<div></div><div></div><div></div><div></div>
+					</div>
+					
+
+					
+
+					<div>
+
+					</div>
+
+
+					
+				</form>
+				
+			</div>
+		</div>
+
+		<div id="1">
+			<div class= "grid-container2">
+				<div class="grid-item">
+					<div class="grid-item2">
+						<p>
+							<a class="a1" href="#">Subi al principio</a>
+				  	 	</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	
+	</div>
+	<div id="footer">
+		<div class="grid-container">
+			<div class="grid-item-footer">
+				<h3>¿Dónde estamos?</h3>
+			</div>
+			
+			<div class="grid-item-footer">
+				<h3>Nuestros horarios</h3>
+			</div>
+			<div class="grid-item-footer">
+				<h3>Seguinos en:</h3>
+			</div>
+			<div class="grid-item-footer">
+				<h5>Nos encontras en: YATAY 204, CABA</h5>
+			</div>
+			<div class="grid-item-footer">
+				<ul>
+					<li>Lunes a viernes de 09 a 01 hs.</li>
+					<li>Sábados de 10 a 01 hs.</li>
+					<li>Domingos de 19 a 01 hs.</li>
+				</ul>
+			</div>
+			<div class="grid-item-footer">
+				<ul>
+					<li>Facebook /lospimpollos</li>
+					<li>Twitter @lospimpollos</li>
+					<li>Youtube /lospimpollos</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
