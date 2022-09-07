@@ -1,0 +1,107 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	padding: 10px;
+  }
+
+.grid-container2 {
+	display: grid;
+	grid-template-columns: auto ;
+	padding: 10px;
+  }
+
+.grid-container-form {
+
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto  ;
+	padding: 10px;
+	text-align: left;
+	font-size: 22px;
+}
+
+.grid-item {
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+  }
+
+.grid-item-form {
+	padding: 20px;
+	font-size: 20px;
+	
+  }
+
+  
+
+  .grid-item-footer {
+	padding: 20px;
+	font-size: 15px;
+	text-align: center;
+  }
+body {
+	background-image: url("images/fondo2.png");
+	color: rgb(30, 30, 30);
+	font-size: 25px;
+	font-family: Helvetica;
+	background-size: cover;
+}
+
+a {
+	color: yellow;
+
+}
+.a1 {
+	color: yellow;
+	font-size: 25;
+	
+}
+
+a:hover {
+	text-decoration: none;
+	color: purple;
+}
+
+#banner {
+	text-align: center;
+	background-image: url("images/cervecería.jpg");
+	background-size: cover;
+	padding: 150px;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+}
+#menu {
+	padding-top: 3%;
+}
+
+#banner h1 {
+	color: white;
+	font-size: 50px;
+}
+
+#banner p {
+	color: white;
+	opacity: 0.8;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+#footer {
+	background: rgb(243, 117, 49);
+ 	color: lightgrey;
+    opacity: 0.8;
+	text-justify: auto;
+	padding-top: 3%;
+}
+
+#footer a {
+	color: lightgrey;
+	font-size: 25px;
+}
+
+#footer a:hover {
+	color: white;
+}
+ul {
+    list-style: none;
+}
+
